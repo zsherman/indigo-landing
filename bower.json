@@ -2,7 +2,9 @@
   "name": "indigo",
   "version": "0.0.0",
   "dependencies": {
-    "modernizr": "~2.6.2"
+    "modernizr": "~2.6.2",
+    "foundation": "~5.0.3",
+    "font-awesome": "~4.0.3"
   },
   "devDependencies": {}
 }

@@ -108,10 +108,10 @@ module.exports = function (grunt) {
                 path: 'http://localhost:3000',
                 app: 'Google Chrome'
             },
-            editor: {
-                path: './',
-                app: 'Sublime Text 2'
-            },
+            // editor: {
+            //     path: './',
+            //     app: 'Sublime Text 2'
+            // },
         },
 
         // Rev Config
@@ -258,7 +258,6 @@ module.exports = function (grunt) {
         'sass:dev',
         'express:dev',
         'open:site',
-        'open:editor',
         'watch'
     ]);
 

@@ -29,3 +29,88 @@
 @import "ui/buttons";
 @import "ui/footer";
 @import "ui/helpers";
+
+.container {
+	-webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+section.main-block {
+	width: 100%;
+	padding: 5px 0px;
+	min-height: 500px;
+}
+
+.logo, .top-links {
+	font-size: 1em;
+	color: #FFF;
+	font-family: "Proxima-nova", "Helvetica";
+	text-transform: uppercase;
+	letter-spacing: .18em;
+	margin-top: 40px;
+}
+
+h1.logo {
+	font-weight: 600;
+}
+
+.top-links {
+	padding-top: 37px;
+
+	li {
+		padding: 0px 6px;
+	}
+
+	a {
+		font-size: .8em;
+		color: #fff;
+
+		&:hover {
+			color: #fff;
+		}
+	}
+}
+
+.hero {
+	text-align: center;
+	padding-top: 60px;
+
+	h1, h3 {
+		font-family: "Raleway", "Proxima-nova", "Helvetica";
+		color: #fff;
+		font-size: 2.3em;
+		font-weight: 300;
+		margin-bottom: 0px;
+	}
+
+
+	h3 {
+		font-size: 1em;
+		font-weight: 400;
+	}
+}
+
+
+#first {
+	background-color: #4a9edf;
+}
+
+#second {
+	background-color: #fedd50;
+}
+
+#third {
+	background-color: #1dc3ac
+}
+
+#fourth {
+	background-color: #f0756b
+}
+
+#fifth {
+	background-color: #9b83dd
+}
+
+#sixth {
+	background-color: #ebeff2
+}
