@@ -104,13 +104,28 @@ h1.logo {
 		background-repeat: no-repeat;
 		margin: 0 auto;
 		margin-top: 60px;
+		padding: 74px 19px;
+
+		.screen {
+			height: 100%;
+			width: 100%;
+			background: #000;
+			background: url('/images/play.png');
+			background-size: 100%;
+
+			a {
+				display: block;
+				height: 100%;
+				width: 100%;
+			}
+		}
 	}
 }
 
 
 #first {
 	background-color: #4a9edf;
-	height: 820px;
+	height: 520px;
 }
 
 #second {

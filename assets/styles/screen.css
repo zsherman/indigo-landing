@@ -608,37 +608,52 @@ h1.logo {
   background-repeat: no-repeat;
   margin: 0 auto;
   margin-top: 60px;
+  padding: 74px 19px;
+}
+/* line 109, sass/screen.scss */
+.hero .phone .screen {
+  height: 100%;
+  width: 100%;
+  background: #000;
+  background: url("/images/play.png");
+  background-size: 100%;
+}
+/* line 116, sass/screen.scss */
+.hero .phone .screen a {
+  display: block;
+  height: 100%;
+  width: 100%;
 }
 
-/* line 111, sass/screen.scss */
+/* line 126, sass/screen.scss */
 #first {
   background-color: #4a9edf;
-  height: 820px;
+  height: 520px;
 }
 
-/* line 116, sass/screen.scss */
+/* line 131, sass/screen.scss */
 #second {
   background-color: #fedd50;
   z-index: 1000;
   position: relative;
 }
 
-/* line 122, sass/screen.scss */
+/* line 137, sass/screen.scss */
 #third {
   background-color: #1dc3ac;
 }
 
-/* line 126, sass/screen.scss */
+/* line 141, sass/screen.scss */
 #fourth {
   background-color: #f0756b;
 }
 
-/* line 130, sass/screen.scss */
+/* line 145, sass/screen.scss */
 #fifth {
   background-color: #9b83dd;
 }
 
-/* line 134, sass/screen.scss */
+/* line 149, sass/screen.scss */
 #sixth {
   background-color: #ebeff2;
 }
