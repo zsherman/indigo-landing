@@ -1,8 +1,10 @@
+/*global $:false */
+
 $(document).foundation();
 
-$(document).ready(function() {
+$(document).ready(function () {
 
-  
+
 
 
 });
