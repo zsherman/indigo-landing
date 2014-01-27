@@ -35,6 +35,22 @@
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
 
+::-webkit-input-placeholder {
+   color: #fff;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #fff; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff; 
+}
+
+:-ms-input-placeholder {  
+   color: #fff; 
+}
+
 section.main-block {
 	width: 100%;
 	padding: 5px 0px;
@@ -96,6 +112,35 @@ h1.logo {
 		font-weight: 400;
 	}
 
+
+	input.signup {
+		/*146x50*/
+		color: #FFF;
+		padding: 25px 25px 25px 28px;
+		background: #4a9edf;
+		border: 2px solid #FFF;
+		display: block;
+		width: 146px;
+		margin: 0 auto;
+		margin-top: 25px;
+		font-family: 'proxima-nova';
+		font-weight: 200;
+		font-size: 15px;
+		letter-spacing: .02em;
+
+		/*&:hover {
+			background: #fff;
+			color: #4a9edf;
+		}*/
+
+		&:focus {
+			background-color: #4a9edf;
+			border: none;
+			box-shadow: none;
+			border: 2px solid #FFF;
+		}
+	}
+
 	.phone {
 		background: url("/images/phone.png");
 		background-size: 100%;
@@ -103,8 +148,9 @@ h1.logo {
 		max-width: 242px;
 		background-repeat: no-repeat;
 		margin: 0 auto;
-		margin-top: 60px;
+		margin-top: 43px;
 		padding: 74px 19px;
+		transition: all 0.5s ease;
 
 		.screen {
 			height: 100%;
@@ -119,13 +165,18 @@ h1.logo {
 				width: 100%;
 			}
 		}
+
+		&:hover {
+			transform: translateY(20px);
+			-webkit-transform: translateY(-20px);
+		}
 	}
 }
 
 
 #first {
 	background-color: #4a9edf;
-	height: 520px;
+	height: 580px;
 }
 
 #second {

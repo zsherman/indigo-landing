@@ -536,13 +536,35 @@ input[type=password]:focus {
 }
 
 /* line 38, sass/screen.scss */
+::-webkit-input-placeholder {
+  color: #fff;
+}
+
+/* line 42, sass/screen.scss */
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #fff;
+}
+
+/* line 46, sass/screen.scss */
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #fff;
+}
+
+/* line 50, sass/screen.scss */
+:-ms-input-placeholder {
+  color: #fff;
+}
+
+/* line 54, sass/screen.scss */
 section.main-block {
   width: 100%;
   padding: 5px 0px;
   min-height: 500px;
 }
 
-/* line 44, sass/screen.scss */
+/* line 60, sass/screen.scss */
 .logo, .top-links {
   font-size: 1em;
   color: #FFF;
@@ -553,40 +575,40 @@ section.main-block {
   /*make logo & top-links width 100px when screen is tiny*/
 }
 
-/* line 55, sass/screen.scss */
+/* line 71, sass/screen.scss */
 .logo-container, .top-links-container {
   max-width: 120px;
 }
 
-/* line 59, sass/screen.scss */
+/* line 75, sass/screen.scss */
 h1.logo {
   font-weight: 600;
 }
 
-/* line 64, sass/screen.scss */
+/* line 80, sass/screen.scss */
 .top-links {
   padding-top: 37px;
 }
-/* line 67, sass/screen.scss */
+/* line 83, sass/screen.scss */
 .top-links li {
   padding: 0px 6px;
 }
-/* line 71, sass/screen.scss */
+/* line 87, sass/screen.scss */
 .top-links a {
   font-size: .8em;
   color: #fff;
 }
-/* line 75, sass/screen.scss */
+/* line 91, sass/screen.scss */
 .top-links a:hover {
   color: #fff;
 }
 
-/* line 81, sass/screen.scss */
+/* line 97, sass/screen.scss */
 .hero {
   text-align: center;
   padding-top: 60px;
 }
-/* line 85, sass/screen.scss */
+/* line 101, sass/screen.scss */
 .hero h1, .hero h3 {
   font-family: "Raleway", "Proxima-nova", "Helvetica";
   color: #fff;
@@ -594,12 +616,39 @@ h1.logo {
   font-weight: 300;
   margin-bottom: 0px;
 }
-/* line 94, sass/screen.scss */
+/* line 110, sass/screen.scss */
 .hero h3 {
   font-size: 1em;
   font-weight: 400;
 }
-/* line 99, sass/screen.scss */
+/* line 116, sass/screen.scss */
+.hero input.signup {
+  /*146x50*/
+  color: #FFF;
+  padding: 25px 25px 25px 28px;
+  background: #4a9edf;
+  border: 2px solid #FFF;
+  display: block;
+  width: 146px;
+  margin: 0 auto;
+  margin-top: 25px;
+  font-family: 'proxima-nova';
+  font-weight: 200;
+  font-size: 15px;
+  letter-spacing: .02em;
+  /*&:hover {
+  	background: #fff;
+  	color: #4a9edf;
+  }*/
+}
+/* line 136, sass/screen.scss */
+.hero input.signup:focus {
+  background-color: #4a9edf;
+  border: none;
+  box-shadow: none;
+  border: 2px solid #FFF;
+}
+/* line 144, sass/screen.scss */
 .hero .phone {
   background: url("/images/phone.png");
   background-size: 100%;
@@ -607,10 +656,11 @@ h1.logo {
   max-width: 242px;
   background-repeat: no-repeat;
   margin: 0 auto;
-  margin-top: 60px;
+  margin-top: 43px;
   padding: 74px 19px;
+  transition: all 0.5s ease;
 }
-/* line 109, sass/screen.scss */
+/* line 155, sass/screen.scss */
 .hero .phone .screen {
   height: 100%;
   width: 100%;
@@ -618,42 +668,47 @@ h1.logo {
   background: url("/images/play.png");
   background-size: 100%;
 }
-/* line 116, sass/screen.scss */
+/* line 162, sass/screen.scss */
 .hero .phone .screen a {
   display: block;
   height: 100%;
   width: 100%;
 }
-
-/* line 126, sass/screen.scss */
-#first {
-  background-color: #4a9edf;
-  height: 520px;
+/* line 169, sass/screen.scss */
+.hero .phone:hover {
+  transform: translateY(20px);
+  -webkit-transform: translateY(-20px);
 }
 
-/* line 131, sass/screen.scss */
+/* line 177, sass/screen.scss */
+#first {
+  background-color: #4a9edf;
+  height: 580px;
+}
+
+/* line 182, sass/screen.scss */
 #second {
   background-color: #fedd50;
   z-index: 1000;
   position: relative;
 }
 
-/* line 137, sass/screen.scss */
+/* line 188, sass/screen.scss */
 #third {
   background-color: #1dc3ac;
 }
 
-/* line 141, sass/screen.scss */
+/* line 192, sass/screen.scss */
 #fourth {
   background-color: #f0756b;
 }
 
-/* line 145, sass/screen.scss */
+/* line 196, sass/screen.scss */
 #fifth {
   background-color: #9b83dd;
 }
 
-/* line 149, sass/screen.scss */
+/* line 200, sass/screen.scss */
 #sixth {
   background-color: #ebeff2;
 }
