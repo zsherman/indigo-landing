@@ -48,11 +48,18 @@ section.main-block {
 	text-transform: uppercase;
 	letter-spacing: .18em;
 	margin-top: 40px;
+
+	/*make logo & top-links width 100px when screen is tiny*/
+}
+
+.logo-container, .top-links-container {
+	max-width: 120px;
 }
 
 h1.logo {
 	font-weight: 600;
 }
+
 
 .top-links {
 	padding-top: 37px;
@@ -88,15 +95,28 @@ h1.logo {
 		font-size: 1em;
 		font-weight: 400;
 	}
+
+	.phone {
+		background: url("/images/phone.png");
+		background-size: 100%;
+		height: 510px;
+		max-width: 242px;
+		background-repeat: no-repeat;
+		margin: 0 auto;
+		margin-top: 60px;
+	}
 }
 
 
 #first {
 	background-color: #4a9edf;
+	height: 820px;
 }
 
 #second {
 	background-color: #fedd50;
+	z-index: 1000;
+	position: relative;
 }
 
 #third {
