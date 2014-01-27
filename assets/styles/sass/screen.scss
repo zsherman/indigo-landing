@@ -54,7 +54,56 @@
 section.main-block {
 	width: 100%;
 	padding: 5px 0px;
-	min-height: 500px;
+	height: 550px;
+	padding-top: 65px;
+
+	.large-phone {
+		background: url("/images/phone.png");
+		height: 500px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		z-index: 100;
+		padding: 128px 32px 0px 32px;
+		max-width: 417px;
+
+		.large-screen {
+			height: 100%;
+			width: 100%;
+			background: #000;
+			background: url('/images/play.png');
+			background-size: 100%;
+			background-repeat: no-repeat;
+
+			a {
+				display: block;
+				height: 100%;
+				width: 100%;
+			}
+		}
+	}
+
+	.feature-description {
+		font-family: "Futura", "Proxima-nova", "Helvetica";
+		color: #FFF;
+		padding: 50px 0px 0px 85px;
+
+		h1 {
+			font-family: "futura";
+			color: #FFF;
+			font-weight: 600;
+			letter-spacing: .1em;
+		}
+
+		p {
+			font-size: 1.7em;
+			letter-spacing: .05em;
+			line-height: 2em;
+		}
+
+		.gesture {
+			text-align: center;
+		}
+	}
 }
 
 .logo, .top-links {
@@ -127,6 +176,7 @@ h1.logo {
 		font-weight: 200;
 		font-size: 15px;
 		letter-spacing: .02em;
+		cursor: pointer;
 
 		/*&:hover {
 			background: #fff;
@@ -177,26 +227,144 @@ h1.logo {
 #first {
 	background-color: #4a9edf;
 	height: 580px;
+	padding-top: 0px;
 }
 
 #second {
 	background-color: #fedd50;
 	z-index: 1000;
 	position: relative;
+
+	.large-phone {
+
+		.large-screen {
+			background: url('/images/custom-blocks.png');
+			background-repeat: no-repeat;
+			background-size: 100%;
+		}
+	}
 }
 
 #third {
-	background-color: #1dc3ac
+	background-color: #1dc3ac;
+	z-index: 1000;
+	position: relative;
+
+	.feature-description {
+		padding: 50px 85px 0px 30px;
+
+		h1 {
+			font-family: "futura";
+			color: #FFF;
+			font-weight: 600;
+			letter-spacing: .1em;
+		}
+
+		p {
+			font-size: 1.7em;
+			letter-spacing: .05em;
+			line-height: 2em;
+		}
+
+		.gesture {
+			text-align: center;
+		}
+	}
+
+	.large-phone {
+
+		.large-screen {
+			background: url('/images/groups.png');
+			background-repeat: no-repeat;
+			background-size: 100%;
+		}
+	}
+
 }
 
 #fourth {
-	background-color: #f0756b
+	background-color: #f0756b;
+	z-index: 1000;
+	position: relative;
+
+	.large-phone {
+
+		.large-screen {
+			background: url('/images/group-options.png');
+			background-repeat: no-repeat;
+			background-size: 100%;
+		}
+	}
+
 }
 
 #fifth {
-	background-color: #9b83dd
+	background-color: #9b83dd;
+	z-index: 1000;
+	position: relative;
+
+	.feature-description {
+		padding: 50px 0px 0px 30px;
+
+		h1 {
+			font-family: "futura";
+			color: #FFF;
+			font-weight: 600;
+			letter-spacing: .1em;
+		}
+
+		p {
+			font-size: 1.7em;
+			letter-spacing: .05em;
+			line-height: 2em;
+		}
+
+		.gesture {
+			text-align: center;
+		}
+	}
+
+	.large-phone {
+		background: url("/images/plugin-pyramid.png");
+		height: 500px;
+		background-repeat: no-repeat;
+		z-index: 100;
+		background-size: 100%;
+	}
 }
 
 #sixth {
-	background-color: #ebeff2
+	background-color: #ebeff2;
+	z-index: 1000;
+	position: relative;
+	padding-top: 0px;
+	height: 500px;
+
+	.quotes {
+		text-align: center;
+		color: #a4a8ab;
+
+		.quotation-mark {
+			font-family: "Proxima-nova", "Helvetica";
+			font-size: 13em;
+			display: block;
+			text-align: center;
+			margin: 0 auto;
+			width: 75px;
+			height: 125px;
+		}
+
+		p {
+			font-family: "Proxima-nova", "Helvetica";
+			font-size: 1.6em;
+			letter-spacing: .05em;
+			line-height: 2em;
+		}
+
+		img {
+			height: 100px;
+			width: 100px;
+			border-radius: 100px;
+		}
+	}
 }
