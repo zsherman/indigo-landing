@@ -331,6 +331,7 @@ h1.logo {
 		background-repeat: no-repeat;
 		z-index: 100;
 		background-size: 100%;
+		margin-top: 58px;
 	}
 }
 
@@ -400,6 +401,10 @@ h1.logo {
 			top: 58%;
 			bottom: 0px;
 		}
+
+		.gesture {
+			visibility: hidden;
+		}
 	}
 
 	#third .feature-description {
@@ -426,6 +431,10 @@ h1.logo {
 			left: 25%;
 			top: 55%;
 			bottom: 0px;
+		}
+
+		.gesture {
+			visibility: hidden;
 		}
 	}
 

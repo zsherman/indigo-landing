@@ -832,9 +832,10 @@ h1.logo {
   background-repeat: no-repeat;
   z-index: 100;
   background-size: 100%;
+  margin-top: 58px;
 }
 
-/* line 337, sass/screen.scss */
+/* line 338, sass/screen.scss */
 #sixth {
   background-color: #ebeff2;
   z-index: 1000;
@@ -842,12 +843,12 @@ h1.logo {
   padding-top: 0px;
   height: 500px;
 }
-/* line 344, sass/screen.scss */
+/* line 345, sass/screen.scss */
 #sixth .quotes {
   text-align: center;
   color: #a4a8ab;
 }
-/* line 348, sass/screen.scss */
+/* line 349, sass/screen.scss */
 #sixth .quotes .quotation-mark {
   font-family: "Proxima-nova", "Helvetica";
   font-size: 13em;
@@ -857,14 +858,14 @@ h1.logo {
   width: 75px;
   height: 125px;
 }
-/* line 358, sass/screen.scss */
+/* line 359, sass/screen.scss */
 #sixth .quotes p {
   font-family: "Proxima-nova", "Helvetica";
   font-size: 1.6em;
   letter-spacing: .05em;
   line-height: 2em;
 }
-/* line 365, sass/screen.scss */
+/* line 366, sass/screen.scss */
 #sixth .quotes img {
   height: 100px;
   width: 100px;
@@ -872,23 +873,23 @@ h1.logo {
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 375, sass/screen.scss */
+  /* line 376, sass/screen.scss */
   section.main-block {
     max-height: 1500px;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 383, sass/screen.scss */
+  /* line 384, sass/screen.scss */
   section.main-block {
     max-height: 1500px;
     padding-top: 30px;
   }
-  /* line 387, sass/screen.scss */
+  /* line 388, sass/screen.scss */
   section.main-block .feature-description {
     padding: 0px 0px 0px 0px;
     text-align: center;
   }
-  /* line 392, sass/screen.scss */
+  /* line 393, sass/screen.scss */
   section.main-block .large-phone {
     margin: 0 auto;
     float: none;
@@ -900,24 +901,28 @@ h1.logo {
     top: 58%;
     bottom: 0px;
   }
-
   /* line 405, sass/screen.scss */
+  section.main-block .gesture {
+    visibility: hidden;
+  }
+
+  /* line 410, sass/screen.scss */
   #third .feature-description {
     padding: 50px 0px 0px 0px;
   }
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 413, sass/screen.scss */
+  /* line 418, sass/screen.scss */
   section.main-block {
     max-height: 1500px;
     padding-top: 0px;
   }
-  /* line 417, sass/screen.scss */
+  /* line 422, sass/screen.scss */
   section.main-block .feature-description {
     padding: 50px 0px 0px 0px;
     text-align: center;
   }
-  /* line 422, sass/screen.scss */
+  /* line 427, sass/screen.scss */
   section.main-block .large-phone {
     margin: 0 auto;
     float: none;
@@ -926,8 +931,12 @@ h1.logo {
     top: 55%;
     bottom: 0px;
   }
+  /* line 436, sass/screen.scss */
+  section.main-block .gesture {
+    visibility: hidden;
+  }
 
-  /* line 432, sass/screen.scss */
+  /* line 441, sass/screen.scss */
   #third .feature-description {
     padding: 50px 0px 0px 0px;
   }
