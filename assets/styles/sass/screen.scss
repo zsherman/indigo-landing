@@ -54,8 +54,9 @@
 section.main-block {
 	width: 100%;
 	padding: 5px 0px;
-	height: 550px;
 	padding-top: 65px;
+	overflow: hidden;
+	max-height: 550px;
 
 	.large-phone {
 		background: url("/images/phone.png");
@@ -64,7 +65,7 @@ section.main-block {
 		background-size: cover;
 		z-index: 100;
 		padding: 128px 32px 0px 32px;
-		max-width: 417px;
+		max-width: 429px;
 
 		.large-screen {
 			height: 100%;
@@ -367,4 +368,69 @@ h1.logo {
 			border-radius: 100px;
 		}
 	}
+}
+
+@media only screen and (max-width: 40em) {
+
+	section.main-block {
+		max-height: 1500px;
+	}
+
+}
+
+@media only screen and (max-width: 40em) {
+
+	section.main-block {
+		max-height: 1500px;
+		padding-top: 30px;
+
+		.feature-description {
+			padding: 0px 0px 0px 0px;
+			text-align: center;
+		}
+
+		.large-phone {
+			margin: 0 auto;
+			float: none;
+			position: absolute;
+			left: 0;
+			right: 0;
+			margin-left: auto;
+			margin-right: auto;
+			top: 58%;
+			bottom: 0px;
+		}
+	}
+
+	#third .feature-description {
+		padding: 50px 0px 0px 0px;
+	}
+
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+
+	section.main-block {
+		max-height: 1500px;
+		padding-top: 0px;
+
+		.feature-description {
+			padding: 50px 0px 0px 0px;
+			text-align: center;
+		}
+
+		.large-phone {
+			margin: 0 auto;
+			float: none;
+			position: absolute;
+			left: 25%;
+			top: 55%;
+			bottom: 0px;
+		}
+	}
+
+	#third .feature-description {
+		padding: 50px 0px 0px 0px;
+	}
+
 }

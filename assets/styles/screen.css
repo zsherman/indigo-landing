@@ -561,10 +561,11 @@ input[type=password]:focus {
 section.main-block {
   width: 100%;
   padding: 5px 0px;
-  height: 550px;
   padding-top: 65px;
+  overflow: hidden;
+  max-height: 550px;
 }
-/* line 60, sass/screen.scss */
+/* line 61, sass/screen.scss */
 section.main-block .large-phone {
   background: url("/images/phone.png");
   height: 500px;
@@ -572,9 +573,9 @@ section.main-block .large-phone {
   background-size: cover;
   z-index: 100;
   padding: 128px 32px 0px 32px;
-  max-width: 417px;
+  max-width: 429px;
 }
-/* line 69, sass/screen.scss */
+/* line 70, sass/screen.scss */
 section.main-block .large-phone .large-screen {
   height: 100%;
   width: 100%;
@@ -583,37 +584,37 @@ section.main-block .large-phone .large-screen {
   background-size: 100%;
   background-repeat: no-repeat;
 }
-/* line 77, sass/screen.scss */
+/* line 78, sass/screen.scss */
 section.main-block .large-phone .large-screen a {
   display: block;
   height: 100%;
   width: 100%;
 }
-/* line 85, sass/screen.scss */
+/* line 86, sass/screen.scss */
 section.main-block .feature-description {
   font-family: "Futura", "Proxima-nova", "Helvetica";
   color: #FFF;
   padding: 50px 0px 0px 85px;
 }
-/* line 90, sass/screen.scss */
+/* line 91, sass/screen.scss */
 section.main-block .feature-description h1 {
   font-family: "futura";
   color: #FFF;
   font-weight: 600;
   letter-spacing: .1em;
 }
-/* line 97, sass/screen.scss */
+/* line 98, sass/screen.scss */
 section.main-block .feature-description p {
   font-size: 1.7em;
   letter-spacing: .05em;
   line-height: 2em;
 }
-/* line 103, sass/screen.scss */
+/* line 104, sass/screen.scss */
 section.main-block .feature-description .gesture {
   text-align: center;
 }
 
-/* line 109, sass/screen.scss */
+/* line 110, sass/screen.scss */
 .logo, .top-links {
   font-size: 1em;
   color: #FFF;
@@ -624,40 +625,40 @@ section.main-block .feature-description .gesture {
   /*make logo & top-links width 100px when screen is tiny*/
 }
 
-/* line 120, sass/screen.scss */
+/* line 121, sass/screen.scss */
 .logo-container, .top-links-container {
   max-width: 120px;
 }
 
-/* line 124, sass/screen.scss */
+/* line 125, sass/screen.scss */
 h1.logo {
   font-weight: 600;
 }
 
-/* line 129, sass/screen.scss */
+/* line 130, sass/screen.scss */
 .top-links {
   padding-top: 37px;
 }
-/* line 132, sass/screen.scss */
+/* line 133, sass/screen.scss */
 .top-links li {
   padding: 0px 6px;
 }
-/* line 136, sass/screen.scss */
+/* line 137, sass/screen.scss */
 .top-links a {
   font-size: .8em;
   color: #fff;
 }
-/* line 140, sass/screen.scss */
+/* line 141, sass/screen.scss */
 .top-links a:hover {
   color: #fff;
 }
 
-/* line 146, sass/screen.scss */
+/* line 147, sass/screen.scss */
 .hero {
   text-align: center;
   padding-top: 60px;
 }
-/* line 150, sass/screen.scss */
+/* line 151, sass/screen.scss */
 .hero h1, .hero h3 {
   font-family: "Raleway", "Proxima-nova", "Helvetica";
   color: #fff;
@@ -665,12 +666,12 @@ h1.logo {
   font-weight: 300;
   margin-bottom: 0px;
 }
-/* line 159, sass/screen.scss */
+/* line 160, sass/screen.scss */
 .hero h3 {
   font-size: 1em;
   font-weight: 400;
 }
-/* line 165, sass/screen.scss */
+/* line 166, sass/screen.scss */
 .hero input.signup {
   /*146x50*/
   color: #FFF;
@@ -691,14 +692,14 @@ h1.logo {
   	color: #4a9edf;
   }*/
 }
-/* line 186, sass/screen.scss */
+/* line 187, sass/screen.scss */
 .hero input.signup:focus {
   background-color: #4a9edf;
   border: none;
   box-shadow: none;
   border: 2px solid #FFF;
 }
-/* line 194, sass/screen.scss */
+/* line 195, sass/screen.scss */
 .hero .phone {
   background: url("/images/phone.png");
   background-size: 100%;
@@ -710,7 +711,7 @@ h1.logo {
   padding: 74px 19px;
   transition: all 0.5s ease;
 }
-/* line 205, sass/screen.scss */
+/* line 206, sass/screen.scss */
 .hero .phone .screen {
   height: 100%;
   width: 100%;
@@ -718,113 +719,113 @@ h1.logo {
   background: url("/images/play.png");
   background-size: 100%;
 }
-/* line 212, sass/screen.scss */
+/* line 213, sass/screen.scss */
 .hero .phone .screen a {
   display: block;
   height: 100%;
   width: 100%;
 }
-/* line 219, sass/screen.scss */
+/* line 220, sass/screen.scss */
 .hero .phone:hover {
   transform: translateY(20px);
   -webkit-transform: translateY(-20px);
 }
 
-/* line 227, sass/screen.scss */
+/* line 228, sass/screen.scss */
 #first {
   background-color: #4a9edf;
   height: 580px;
   padding-top: 0px;
 }
 
-/* line 233, sass/screen.scss */
+/* line 234, sass/screen.scss */
 #second {
   background-color: #fedd50;
   z-index: 1000;
   position: relative;
 }
-/* line 240, sass/screen.scss */
+/* line 241, sass/screen.scss */
 #second .large-phone .large-screen {
   background: url("/images/custom-blocks.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
-/* line 248, sass/screen.scss */
+/* line 249, sass/screen.scss */
 #third {
   background-color: #1dc3ac;
   z-index: 1000;
   position: relative;
 }
-/* line 253, sass/screen.scss */
+/* line 254, sass/screen.scss */
 #third .feature-description {
   padding: 50px 85px 0px 30px;
 }
-/* line 256, sass/screen.scss */
+/* line 257, sass/screen.scss */
 #third .feature-description h1 {
   font-family: "futura";
   color: #FFF;
   font-weight: 600;
   letter-spacing: .1em;
 }
-/* line 263, sass/screen.scss */
+/* line 264, sass/screen.scss */
 #third .feature-description p {
   font-size: 1.7em;
   letter-spacing: .05em;
   line-height: 2em;
 }
-/* line 269, sass/screen.scss */
+/* line 270, sass/screen.scss */
 #third .feature-description .gesture {
   text-align: center;
 }
-/* line 276, sass/screen.scss */
+/* line 277, sass/screen.scss */
 #third .large-phone .large-screen {
   background: url("/images/groups.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
-/* line 285, sass/screen.scss */
+/* line 286, sass/screen.scss */
 #fourth {
   background-color: #f0756b;
   z-index: 1000;
   position: relative;
 }
-/* line 292, sass/screen.scss */
+/* line 293, sass/screen.scss */
 #fourth .large-phone .large-screen {
   background: url("/images/group-options.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
-/* line 301, sass/screen.scss */
+/* line 302, sass/screen.scss */
 #fifth {
   background-color: #9b83dd;
   z-index: 1000;
   position: relative;
 }
-/* line 306, sass/screen.scss */
+/* line 307, sass/screen.scss */
 #fifth .feature-description {
   padding: 50px 0px 0px 30px;
 }
-/* line 309, sass/screen.scss */
+/* line 310, sass/screen.scss */
 #fifth .feature-description h1 {
   font-family: "futura";
   color: #FFF;
   font-weight: 600;
   letter-spacing: .1em;
 }
-/* line 316, sass/screen.scss */
+/* line 317, sass/screen.scss */
 #fifth .feature-description p {
   font-size: 1.7em;
   letter-spacing: .05em;
   line-height: 2em;
 }
-/* line 322, sass/screen.scss */
+/* line 323, sass/screen.scss */
 #fifth .feature-description .gesture {
   text-align: center;
 }
-/* line 327, sass/screen.scss */
+/* line 328, sass/screen.scss */
 #fifth .large-phone {
   background: url("/images/plugin-pyramid.png");
   height: 500px;
@@ -833,7 +834,7 @@ h1.logo {
   background-size: 100%;
 }
 
-/* line 336, sass/screen.scss */
+/* line 337, sass/screen.scss */
 #sixth {
   background-color: #ebeff2;
   z-index: 1000;
@@ -841,12 +842,12 @@ h1.logo {
   padding-top: 0px;
   height: 500px;
 }
-/* line 343, sass/screen.scss */
+/* line 344, sass/screen.scss */
 #sixth .quotes {
   text-align: center;
   color: #a4a8ab;
 }
-/* line 347, sass/screen.scss */
+/* line 348, sass/screen.scss */
 #sixth .quotes .quotation-mark {
   font-family: "Proxima-nova", "Helvetica";
   font-size: 13em;
@@ -856,16 +857,78 @@ h1.logo {
   width: 75px;
   height: 125px;
 }
-/* line 357, sass/screen.scss */
+/* line 358, sass/screen.scss */
 #sixth .quotes p {
   font-family: "Proxima-nova", "Helvetica";
   font-size: 1.6em;
   letter-spacing: .05em;
   line-height: 2em;
 }
-/* line 364, sass/screen.scss */
+/* line 365, sass/screen.scss */
 #sixth .quotes img {
   height: 100px;
   width: 100px;
   border-radius: 100px;
+}
+
+@media only screen and (max-width: 40em) {
+  /* line 375, sass/screen.scss */
+  section.main-block {
+    max-height: 1500px;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 383, sass/screen.scss */
+  section.main-block {
+    max-height: 1500px;
+    padding-top: 30px;
+  }
+  /* line 387, sass/screen.scss */
+  section.main-block .feature-description {
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+  }
+  /* line 392, sass/screen.scss */
+  section.main-block .large-phone {
+    margin: 0 auto;
+    float: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 58%;
+    bottom: 0px;
+  }
+
+  /* line 405, sass/screen.scss */
+  #third .feature-description {
+    padding: 50px 0px 0px 0px;
+  }
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 413, sass/screen.scss */
+  section.main-block {
+    max-height: 1500px;
+    padding-top: 0px;
+  }
+  /* line 417, sass/screen.scss */
+  section.main-block .feature-description {
+    padding: 50px 0px 0px 0px;
+    text-align: center;
+  }
+  /* line 422, sass/screen.scss */
+  section.main-block .large-phone {
+    margin: 0 auto;
+    float: none;
+    position: absolute;
+    left: 25%;
+    top: 55%;
+    bottom: 0px;
+  }
+
+  /* line 432, sass/screen.scss */
+  #third .feature-description {
+    padding: 50px 0px 0px 0px;
+  }
 }
